@@ -10,12 +10,13 @@
 }
 body{
     margin: 0;
-    max-width: 1440px;
+    
 }
 .header{
     background-image: url(../img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 770px;
     
 }
@@ -62,4 +63,37 @@ body{
     color: white;
     text-align: center;
     margin: 0;
+}
+.nav{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.project-logo-black{
+    margin-left: 300px;
+
+}
+.navbar{
+    margin-right: 250px;
+
+}
+.navbar-text{
+    display: flex;
+    list-style: none;
+}
+.navbar-text-li{
+    margin-left: 24px;
+}
+.navbar-text-li-text{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #48555B;
+    font-size: 12px;
+
+}
+.navbar-text-li-text:hover,
+.navbar-text-li-text:focus{
+    color: #00A4E5;
 }
